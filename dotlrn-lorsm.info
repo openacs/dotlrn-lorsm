@@ -6,21 +6,15 @@
     <pretty-plural>dotLRN LORS Management Applets</pretty-plural>
     <initial-install-p>f</initial-install-p>
     <singleton-p>t</singleton-p>
-
-    <maturity>
-      <platform id="dotlrn" version="2.1">
-         <level descr="New Submission">0</level>
-      </platform>
-    </maturity>
     
-    <version name="0.1d" url="http://openacs.org/repository/download/apm/dotlrn-lorsm-0.1d.apm">
+    <version name="0.4d" url="http://openacs.org/repository/download/apm/dotlrn-lorsm-0.3d.apm">
         <owner url="mailto:ErnieG@mm.st">Ernie Ghiglione</owner>
-        <release-date>2004-04-10</release-date>
+        <release-date>2004-06-19</release-date>
         <vendor url="http://www.openacs.org">OpenACS</vendor>
 
-        <provides url="dotlrn-lorsm" version="0.1d"/>
-        <requires url="lorsm-portlet" version="0.1d"/>
+        <provides url="dotlrn-lorsm" version="0.4d"/>
         <requires url="dotlrn" version="1.0"/>
+        <requires url="lorsm-portlet" version="0.4d"/>
 
         <callbacks>
         </callbacks>
