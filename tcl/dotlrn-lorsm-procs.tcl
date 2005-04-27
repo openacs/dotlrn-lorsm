@@ -48,7 +48,7 @@ namespace eval dotlrn_lorsm {
     } {
 	returns the pretty name
     } {
-       	return "LORS Management"
+       	return "#lorsm-portlet.Learning_Materials#"
     }
 
     ad_proc -public add_applet {
