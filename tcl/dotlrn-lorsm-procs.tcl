@@ -55,7 +55,7 @@ namespace eval dotlrn_lorsm {
     } {
 	Add the lorsm applet to dotlrn. One time init - must be repeatable!
     } {
-        dotlrn_applet::add_applet_to_dotlrn -applet_key [applet_key] -package_key [my_package_key]
+	    dotlrn_applet::add_applet_to_dotlrn -applet_key [applet_key] -package_key [my_package_key]
     }
 
     ad_proc -public remove_applet {
