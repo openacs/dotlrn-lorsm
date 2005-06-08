@@ -115,7 +115,7 @@ namespace eval dotlrn_lorsm {
         user_id
     } {
     } {
-        ad_return_complaint 1 "[applet_key] remove_user not implemented!"
+        # noop
     }
 
     ad_proc -public add_user_to_community {
