@@ -17,6 +17,8 @@
         <requires url="lorsm-portlet" version="0.4d"/>
 
         <callbacks>
+            <callback type="before-uninstall"  proc="dotlrn_lorsm::uninstall"/>
+            <callback type="after-install"  proc="dotlrn_lorsm::install"/>
         </callbacks>
         <parameters>
         <!-- No version parameters -->
