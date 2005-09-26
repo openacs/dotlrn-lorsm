@@ -10,13 +10,13 @@ ad_library {
 namespace eval dotlrn_lorsm {}
 
 ad_proc -public dotlrn_lorsm::install {} {
-    dotLRN Assessment package install proc
+    dotLRN LORSM package install proc
 } {
     register_portal_datasource_impl
 }
 
 ad_proc -public dotlrn_lorsm::uninstall {} {
-    dotLRN Assessment package uninstall proc
+    dotLRN LORSM package uninstall proc
 } {
     unregister_portal_datasource_impl
 }
