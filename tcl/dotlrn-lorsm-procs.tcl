@@ -206,11 +206,7 @@ namespace eval dotlrn_lorsm {
             -applet_key [applet_key]
         ]
 
-	set clone_courses [db_list_of_lists course_clone {
-	    SELECT man_id, lorsm_instance_id, community_id, class_key, isenabled, istrackable 
-	    FROM ims_cp_manifest_class
-            WHERE community_id = :old_community_id
-	}]
+	set clone_courses [db_list_of_lists course_clone {}]
 
 	if {![empty_string_p $clone_courses]} {
 
@@ -220,12 +216,7 @@ namespace eval dotlrn_lorsm {
 		set istrackable [lindex $course 5]
 		set class_key [dotlrn_community::get_community_type_from_community_id $new_community_id]
 
-		db_dml add-course {
-		    insert into ims_cp_manifest_class \
-			(man_id, lorsm_instance_id, community_id, class_key, isenabled, istrackable) \
-			values \
-			(:man_id, :new_package_id, :new_community_id, :class_key, :isenabled, :istrackable)
-		}
+		db_dml add-course {}
 
 	    }
 
