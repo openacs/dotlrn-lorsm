@@ -7,14 +7,14 @@
     <initial-install-p>f</initial-install-p>
     <singleton-p>t</singleton-p>
     
-    <version name="2.4.0a1" url="http://openacs.org/repository/download/apm/dotlrn-lorsm-2.4.0a1.apm">
+    <version name="2.4.0b1" url="http://openacs.org/repository/download/apm/dotlrn-lorsm-2.4.0b1.apm">
         <owner url="mailto:ErnieG@mm.st">Ernie Ghiglione</owner>
         <release-date>2007-04-22</release-date>
         <vendor url="http://www.openacs.org">OpenACS</vendor>
 
-        <provides url="dotlrn-lorsm" version="2.4.0a1"/>
-        <requires url="dotlrn" version="2.4.0a1"/>
-        <requires url="lorsm-portlet" version="2.4.0a1"/>
+        <provides url="dotlrn-lorsm" version="2.4.0b1"/>
+        <requires url="dotlrn" version="2.4.0b1"/>
+        <requires url="lorsm-portlet" version="2.4.0b1"/>
 
         <callbacks>
             <callback type="before-uninstall"  proc="dotlrn_lorsm::uninstall"/>
