@@ -13,7 +13,6 @@ ad_proc -public -callback lorsm::permissions_kludge -impl dotlrn-lorsm {
 
     Kludge permissions of a course uploaded by lorsm.
 } {
-ns_log Notice "Huh? in callback: parent_id $parent_id items_parent_id $items_parent_id man_id $man_id community_id $community_id"
 
         set party_id_admin [db_string party_id_admin {}]
         set party_id_member [db_string party_id_member {}]

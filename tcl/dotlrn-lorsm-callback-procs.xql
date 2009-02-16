@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <queryset>
 
-    <fullquery name="party_id_member">
+    <fullquery name="callback::lorsm::permissions_kludge::impl::dotlrn-lorsm.party_id_member">
         <querytext>
             select segment_id
             from rel_segments
@@ -10,7 +10,7 @@
         </querytext>
     </fullquery>
 
-    <fullquery name="party_id_admin">
+    <fullquery name="callback::lorsm::permissions_kludge::impl::dotlrn-lorsm.party_id_admin">
         <querytext>
             select segment_id
             from rel_segments
@@ -19,7 +19,7 @@
         </querytext>
     </fullquery>
 
-    <fullquery name="party_id_professor">
+    <fullquery name="callback::lorsm::permissions_kludge::impl::dotlrn-lorsm.party_id_professor">
         <querytext>
             select segment_id
             from rel_segments
@@ -27,7 +27,7 @@
         </querytext>
     </fullquery>
 
-    <fullquery name="party_id_admins">
+    <fullquery name="callback::lorsm::permissions_kludge::impl::dotlrn-lorsm.party_id_admins">
         <querytext>
             select segment_id
             from rel_segments
