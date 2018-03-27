@@ -78,7 +78,7 @@ namespace eval dotlrn_lorsm {
     ad_proc -public add_applet_to_community {
         community_id
     } {
-        Add the lorsm applet to a specifc dotlrn community
+        Add the lorsm applet to a specific dotlrn community
     } {
         set portal_id [dotlrn_community::get_portal_id \
                         -community_id $community_id]
@@ -134,7 +134,7 @@ namespace eval dotlrn_lorsm {
         community_id
         user_id
     } {
-        Add a user to a specifc dotlrn community
+        Add a user to a specific dotlrn community
     } {
         set package_id [dotlrn_community::get_applet_package_id \
                             -community_id $community_id \
